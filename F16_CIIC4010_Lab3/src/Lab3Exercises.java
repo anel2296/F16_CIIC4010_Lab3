@@ -5,7 +5,7 @@ public class Lab3Exercises {
 		JFrame AnelMartinez = new JFrame("Hello, world!");
 		AnelMartinez.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		AnelMartinez.setLocation(850, 400);
-		AnelMartinez.setSize(200, 200);
+		AnelMartinez.setSize(300, 170);
 		AnelMartinez.setVisible(true);
         MyPanelClass myPanel = new MyPanelClass();
         AnelMartinez.getContentPane().add(myPanel);
