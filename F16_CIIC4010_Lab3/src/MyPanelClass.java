@@ -26,28 +26,28 @@ public class MyPanelClass extends JPanel {
                         //Paint the background
                         g.setColor(Color.RED);
                         g.fillRect(x1, y1, width + 1, height + 1);
-                        //Draw a border
+                        //Draw a first white rectangle
                        g.setColor(Color.WHITE);
                       g.fillRect(x1, y1 + 30, width + 1, height - 130);
-                      //Draw a second border
-//                        g.setColor(Color.ORANGE);
-//                        g.drawRect(x1 + 5, y1 + 5, width - 10, height - 10);
+                      //Draw a second white rectangle
+                        g.setColor(Color.WHITE);
+                        g.fillRect(x1, y1 + 100, width + 1, height - 130);
 //                        g.setColor(Color.RED);
 //                        g.drawLine(x1, x2, y2, y1);
 //                        g.setColor(Color.WHITE);
 //                        g.drawLine(x1, y1, x2, y2);
 //                        g.setColor(Color.GREEN);
 //                        g.fillOval(x1 + 55, y1 + 55, width - 110, height - 110);
-//                        Polygon p = new Polygon();
-//                        p.addPoint(x1 + 5, y1 + 25);
-//                        p.addPoint(x1 + 20, y1 + 10);
-//                        p.addPoint(x1 + 35, y1 + 25);
+                        Polygon p = new Polygon();
+                        p.addPoint(x1, y1);
+                        p.addPoint(x1 + 120, y1 + 85);
+                        p.addPoint(x1, y1 + 170);
 //                        p.addPoint(x1 + 25, y1 + 25);
 //                        p.addPoint(x1 + 25, y1 + 45);
 //                        p.addPoint(x1 + 15, y1 + 45);
 //                        p.addPoint(x1 + 15, y1 + 25);
-//                        g.setColor(Color.YELLOW);
-//                        g.fillPolygon(p);
+                        g.setColor(Color.BLUE);
+                        g.fillPolygon(p);
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 25, y1 + 73);
                         p2.addPoint(x1 + 41, y1 + 73);
